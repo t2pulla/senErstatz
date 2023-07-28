@@ -7,4 +7,4 @@ test the web app before getting hardware.
 Docker engine on windows with a dev container setup and vi with source mounted to the container
 this process will work for both perl and django 
 # Next Steps
-Nothing in place yet need to still learning django and the sensor code is in design.
+Nothing in place yet, still learning django basics and the sensor code is in design.
