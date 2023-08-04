@@ -11,6 +11,7 @@ this process will work for both perl and django
 This will start as simple as possible and will just be two csv files one with zone,temp,humidity entries.
 used by poll.pl and the other which alert.pl is watching for changes for devices that able to alert.
 Both poll and alert will change the model for update to the web app. 
+This is fake data for development and testing AKA Synthetic Data
 
 ## Next Steps
 Nothing in place yet, still learning django basics.
