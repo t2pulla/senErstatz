@@ -14,11 +14,12 @@ Both poll and alert will change the model for update to the web app.
 This is fake data for development and testing AKA Synthetic Data
 
 ## Next Steps
+```
 entity diagram done
 entity documentation
 perl proof of concept cli only
 django app perl backend 
-
+```
 # entity diagram
 
 ```mermaid
