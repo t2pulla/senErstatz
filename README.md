@@ -14,4 +14,23 @@ Both poll and alert will change the model for update to the web app.
 This is fake data for development and testing AKA Synthetic Data
 
 ## Next Steps
-Nothing in place yet, still learning django basics.
+entity diagram done
+entity documentation
+perl proof of concept cli only
+django app perl backend 
+
+# entity diagram
+
+```mermaid
+
+erDiagram
+    POLL ||--o{ HAL : uses
+    HAL  ||--|{ HARDWARE : interface
+    POLL ||--|{ MODEL : updates
+    VIEW ||--|{ MODEL : uses
+    ALERT ||--|{ HAL  : uses
+    ALERT ||--|{ MODEL : updates
+    ACTION ||--|{ MODEL : uses
+    TUNER ||--|{ HAL : updates
+
+```
